@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  align-items: center;
+}
+
+* {
+  opacity: 0.9;
+}
+
+a {
+  color: seashell;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+/*  navbar  */
+
+header {
+  background-color: black;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  background-color: black;
+  z-index: 99;
+  display: inline-flex;
+  min-width: 100%;
+  min-height: 69px;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.navimage {
+  max-height: 50px;
+  margin: 10px;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+.navlinks a:hover {
+  font-weight: bold;
+}
+
+/*  HERO  */
+
+.hero {
+  background-image: url(/images/img-mission-background.webp);
+  background-size: cover;
+  min-width: 1350px;
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  margin-top: 69px;
+  flex-wrap: wrap;
+}
+
+.hero-child {
+  background-color: black;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*  CONTENT  */
+
+.content {
+  display: flex;
+  max-width: 1000px;
+  flex-direction: column;
+  align-content: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.imagecard-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100%;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.image-card {
+  margin: 10px;
+  display: flex;
+}
+a.image-link {
+  text-decoration: none;
+  text-align: center;
+}
+
+a.image-link:hover {
+  box-shadow: 2px 1px 2px seashell;
+}
+
+a {
+  text-align: center;
+}
+/*  LOCATIONS  */
+
+.locations {
+  background-image: url(/images/img-locations-background.jpeg);
+  min-height: 500px;
+  max-width: 1350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid seashell;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font-weight: lighter;
+}
+
+.locationcontainer {
+  display: inline-flex;
+  justify-content: center;
+  min-width: 100%;
+  flex-wrap: wrap;
+}
+
+.location-cards {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  margin: 40px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  line-height: 40px;
+}
+
+/*  contact  */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  align-items: center;
+  align-content: space-between;
+  padding-bottom: 50px;
+}
+
+#footer {
+  border: 1px white solid;
+}
