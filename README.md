@@ -3,8 +3,6 @@ Tea Cozy CodeAcademy challenge
 
 Questions: 
 
-Any ideas for why my background images in CSS are not appearing? I have tried everything I can think of with the pathway and still nothing.
-
 Why does my hero text not wrap?
 
 The spacing of my navbar is strange...
